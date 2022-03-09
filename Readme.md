@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/springer-chris/C02Emissions_by_YearAndSector">
+  <a href="https://github.com/springer-chris/C02-Emissions-by-Sector">
     <img src="Images/pop%20and%20temp.png" alt="Logo" width="300" height="180" >
   </a>
 
@@ -113,7 +113,7 @@
 
 [Chris Springer](https://www.linkedin.com/in/chris-springer-92a31264/) - chris7springer@gmail.com
 
-Project Link: [https://github.com/springer-chris/C02Emissions_by_YearAndSector](https://github.com/springer-chris/C02Emissions_by_YearAndSector)
+Project Link: [https://github.com/springer-chris/C02-Emissions-by-Sector](https://github.com/springer-chris/C02-Emissions-by-Sector)
 
 Tableau Link: [https://public.tableau.com/app/profile/chris.springer/viz/C02Emissions-ClimateTrace/C02EmissionsbyCountry](https://public.tableau.com/app/profile/chris.springer/viz/C02Emissions-ClimateTrace/C02EmissionsbyCountry)
 
