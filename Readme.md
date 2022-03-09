@@ -6,7 +6,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/springer-chris/C02Emissions_by_YearAndSector">
-    <img src="images/pop and temp.png" alt="Logo" width="300" height="180" >
+    <img src="Images/pop%20and%20temp.png" alt="Logo" width="300" height="180" >
   </a>
 
   ## <h3 align="center">Exploratory C02 Emissions Exercise:</h3>
@@ -22,7 +22,7 @@
 
 <br/>
 
-<img src="images\ProcessMap.png" alt="Process Map"/>
+<img src="Images/processmap.png" alt="Process Map"/>
 
 <br/>
 
@@ -68,31 +68,31 @@
 1. I got started by importing Pandas and Numpy and pulling in the two data models from Climate Trace.   
     a. Imported libraries and brought in the primary data model.  
 
-<img src="images\Step 1 & 2.png" alt="Steps 1 & 2"/>
+<img src="Images/Step%201%20&%202.png" alt="Steps 1 & 2"/>
    
         b. Brought in the Forest and Land Use sector data as it is not included in Climate Trace's primary data model for some reason.
 
-<img src="images\Step 3.png" alt="Step 3"/>
+<img src="Images/Step%203.png" alt="Step 3"/>
 
 1. I then combined the two data models and did some general cleaning of the data.
 
-<img src="images\Step 4.png" alt="Step 4"/>
+<img src="Images/Step%204.png" alt="Step 4"/>
 
 4. Once I had that as I wanted I pulled in the population data from the World Bank.
 
-<img src="images\Step 5.png" alt="Step 5"/>
+<img src="Images/Step%205.png" alt="Step 5"/>
  
 5. I then made some changes to that data model so I could easily merge it with the emissions data.
  
- <img src="images\Step 6.png" alt="Step 6"/>
+ <img src="Images/Step%206.png" alt="Step 6"/>
 
 6. Now that the emissions and population data were both ready I merged them together and then made some more changs to the new data model.
 
-<img src="images\Step 7.png" alt="Step 7">
+<img src="Images/Step%207.png" alt="Step 7">
 
 7. I decided to pull in economic and geographica grouping in from the world bank and merged those in as well.  
 
-<img src="images\Step 8.png" alt="Step 8">
+<img src="Images/Step%208.png" alt="Step 8">
 
 8. I then saved the now finalized data model as a csv that to use as my Tableau data source.
 
