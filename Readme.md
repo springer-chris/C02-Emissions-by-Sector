@@ -6,23 +6,24 @@
 <br />
 <p align="center">
   <a href="https://github.com/springer-chris/C02-Emissions-by-Sector">
-    <img src="Images/pop%20and%20temp.png" alt="Logo" width="300" height="180" >
+    <img src="Images/pop%20and%20temp.png" alt="Logo" width="300" height="200" >
   </a>
 
-  ## <h3 align="center">Exploratory C02 Emissions Exercise:</h3>
+  ## <h3 align="center">C02 Emissions Per Capita: Exploratory Exercise</h3>
    <!--<h3 align="center">Per capita and total emissions</h3>-->
 <!-- ABOUT THE PROJECT -->
+<br/>
 
 ## Project Summary
 
 - Pulled C02 emissions data from Climate Trace. 
-- Pulled popluation data and country categorizations from the World Bank.
-- Used python to clean, transform, and combine the data sets. 
+- Pulled population data and country categorizations from The World Bank.
+- Used Jupyter Notebook, python and pandas to clean, transform, and combine the data sets. 
 - Built a dashboard in Tableau Public using the unified data model.
 
 <br/>
 
-<img src="Images/processmap.png" alt="Process Map"/>
+<img src="Images/processmap.png" alt="ProcessMap"/>
 
 <br/>
 
@@ -46,12 +47,13 @@
 
 ## About the Project
   <p align="left">
- I spend a lot of time reading about climate change, but it's scale and complexity can make it a difficult topic to digest. I wanted to create a tool I could use to provide myself with useful context and allow for easy exploratory analysis. My goals at the offset were:
+ I spend a lot of time reading about climate change, but it's scale and complexity can make it a difficult topic to digest. I wanted to find a tool that would:
  
- - Have a resource on hand I could use to better understand world, regional, and country level emissions and their sources.
- - Look at emissions per capita and in units that are easier for me to understand and visualize.
+ - Provide world, regional, and country level emissions context.
+ - Show emissions per capita in relatable units.
+ - Break out emissions by source to show the relative impacts of different industries.
 
- A friend mentioned [Climate Trace](https://www.climatetrace.org/) to me as a potential resource and it has been a really useful tool. They have very user friendly visualizations, break out emissions by [sector and subsector](https://www.climatetrace.org/inventory), and capture emissions from unconventional sources like wildfires. Unfortunately, they do not have per capita emissions and they separate out two of the emissions sectors in their visualizations. I decided to build my own data model and and visualizations so I could include the additional elements I wanted. I pulled the data I needed from the [World Bank](https://data.worldbank.org/indicator/SP.POP.TOTL), built the unified date model I wanted in Jupyter Notebook using python and built the visualization in Tableau Public.
+ A friend mentioned [Climate Trace](https://www.climatetrace.org/) to me and it has been a great resource. They have really user friendly visualizations, they break out emissions by [sector and subsector](https://www.climatetrace.org/inventory), and they capture emissions from unconventional sources like wildfires. Finding that kind of detailed emissions data was great, but Climate Trace didn't have the per capita emissions I was looking for and they don't include two of the emissions sectors (Forest and Land Use) in their aggregate figures. I decided to create my own tool in Tableau to work around those shorcomings. I pulled Climate Trace's emissions data, found population data from the [World Bank](https://data.worldbank.org/indicator/SP.POP.TOTL) and combined the data models with python. I then built the visualization I was looking for in Tableau Public for ease of reference.
  <br/>
 
 ## Built With
@@ -69,28 +71,28 @@
     a. Imported libraries and brought in the primary data model.  
 
 <img src="Images/Step%201%20&%202.png" alt="Steps 1 & 2"/>
-   
-        b. Brought in the Forest and Land Use sector data as it is not included in Climate Trace's primary data model for some reason.
+
+&emsp; &emsp; &emsp; b. Brought in the Forest and Land Use sectors separately as they are not included in Climate Trace's primary data model.
 
 <img src="Images/Step%203.png" alt="Step 3"/>
 
-1. I then combined the two data models and did some general cleaning of the data.
+1. I then combined the two data frames and clean up the resulting data frame a bit.
 
 <img src="Images/Step%204.png" alt="Step 4"/>
 
-4. Once I had that as I wanted I pulled in the population data from the World Bank.
+4. Once I had that as I wanted I pulled in the population data from The World Bank.
 
 <img src="Images/Step%205.png" alt="Step 5"/>
  
-5. I then made some changes to that data model so I could easily merge it with the emissions data.
+1. I then transformed that data frame a bit so I could easily merge it with the emissions data.
  
  <img src="Images/Step%206.png" alt="Step 6"/>
 
-6. Now that the emissions and population data were both ready I merged them together and then made some more changs to the new data model.
+6. Now that the emissions and population data were both ready I merged them together and then made some more changes to the new data model.
 
 <img src="Images/Step%207.png" alt="Step 7">
 
-7. I decided to pull in economic and geographica grouping in from the world bank and merged those in as well.  
+1. I decided to pull economic and geographical groupings from the world bank and merged those in as well.  
 
 <img src="Images/Step%208.png" alt="Step 8">
 
@@ -103,8 +105,8 @@
 - Pull source data from Climate Trace and the World Bank using their APIs.
 - Expand the scope. Pull and integrate other information:
   - Additional metrics for depth: Atmosphere C02 levels, average temperature, ocean temperature and acidity etc.
-  - Add additional elements to explore correlation: Inequality, $ per capita,GDP etc.
-- Automate the data retreival and the data model/Tableau updates.
+  - Add additional elements to explore correlation: Inequality, $ per capita, GDP etc.
+- Automate the data retrieval and the data model/Tableau updates.
 
 <br/>
 
