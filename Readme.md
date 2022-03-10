@@ -23,7 +23,7 @@
 
 <br/>
 
-<img src="Images/processmap.png" alt="ProcessMap"/>
+<img src="Images/summary%20diagram.png" alt="SummaryDiagram"/>
 
 <br/>
 
@@ -90,13 +90,19 @@
 
 6. Now that the emissions and population data were both ready I merged them together and then made some more changes to the new data model.
 
-<img src="Images/Step%207.png" alt="Step 7">
+<img src="Images/Step%207.png" alt="Step 7"/>
 
-1. I decided to pull economic and geographical groupings from the world bank and merged those in as well.  
+7. I decided to pull economic and geographical groupings from the world bank and merged those in as well.  
 
-<img src="Images/Step%208.png" alt="Step 8">
+<img src="Images/Step%208.png" alt="Step 8"/>
 
-8. I then saved the now finalized data model as a csv that to use as my Tableau data source.
+1. I created a csv with the now finalized data model to use as my Tableau data source.
+
+<img src="Images/Step%209.png" alt="Step 9"/>
+
+9. I then finally created the visualization I wanted in Tableau.
+
+<img src="Images/tableau%20dashboard.png" alt="Visualization" />
 
 <br/>
 
